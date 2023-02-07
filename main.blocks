@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="RlIGZ(|lMR|=-QS{Ls^c" x="-231" y="-167"><statement name="HANDLER"><block type="device_show_leds" id="7fb+tmQsu9j?C2d^DHUp"><field name="LEDS">`
+        . . # # . 
+        . # # # # 
+        # # # # # 
+        # # # # # 
+        . # # . .
+        `</field></block></statement></block><block type="device_button_event" id="ByhfE*!H~2=vx*u|n,Hn" x="6" y="-167"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="controls_repeat_ext" id="(-?T)?Od.e^SG?h1lo,r"><value name="TIMES"><shadow type="math_whole_number"><field name="NUM">4</field></shadow><block type="device_random" id="0ck@$./ehmN0zf~{6wT#"><value name="min"><shadow type="math_number" id="^Mt6qUgZi%:8$BC2d9bK"><field name="NUM">8</field></shadow></value><value name="limit"><shadow type="math_number" id="uOf1Ir,Fv3m?$@@$*Ue$"><field name="NUM">30</field></shadow></value></block></value><statement name="DO"><block type="function_call" id="hU0|Tt;V?_D.y73o?:1Y"><mutation name="BATATA QUENTE" functionid="vGU^uelx39x.!eZBB/k~"></mutation></block></statement><next><block type="function_call" id="Z~AIGAWTF;1*gIu~mWwj"><mutation name="BATATA QUEIMOU" functionid="|yN$e*`HRsdGL!ffA/%C"></mutation></block></next></block></statement></block><block type="function_definition" id="e5,`;_8qDif5[JCAy^sQ" x="4" y="101"><mutation name="BATATA QUENTE" functionid="vGU^uelx39x.!eZBB/k~"></mutation><field name="function_name">BATATA QUENTE</field><statement name="STACK"><block type="device_show_leds" id="}sRc[?|i4Vmk]+OZ^|/f"><field name="LEDS">`
+        . . # # . 
+        . # # # # 
+        # # # # # 
+        # # # # # 
+        . # # . .
+        `</field><next><block type="device_show_leds" id="Dreh2_%af1FN~!o?:!%q"><field name="LEDS">`
+        . . # # . 
+        . # . . # 
+        # . . . # 
+        # . . # # 
+        . # # . .
+        `</field><next><block type="soundExpression_playSoundEffect" id="yu#-n]*m(bT%@7pViJZd"><field name="mode">SoundExpressionPlayMode.InBackground</field><value name="sound"><shadow type="soundExpression_builtinSoundEffect" id="a1q]7GRo6}p_g+hKB_m)"><field name="soundExpression">soundExpression.hello</field></shadow></value></block></next></block></next></block></statement></block><block type="function_definition" id="v3x=.NX{S0H:lZjyOp!{" x="387" y="119"><mutation name="BATATA QUEIMOU" functionid="|yN$e*`HRsdGL!ffA/%C"></mutation><field name="function_name">BATATA QUEIMOU</field><statement name="STACK"><block type="music_stop_all_sounds" id="Wq;P7k#ev4+Lg_G{~_!M"><next><block type="basic_show_icon" id="?4zPg^pnvLR99gX[7u]R"><field name="i">IconNames.Skull</field><next><block type="controls_repeat_ext" id="9d[5@[O)/GeB:`rApX;%"><value name="TIMES"><shadow type="math_whole_number" id="=r9|},-RP,Y]*a@Tfg[a"><field name="NUM">3</field></shadow></value><statement name="DO"><block type="soundExpression_playSoundEffect" id="{x~6Jawq2UQhz7P5/U)n"><field name="mode">SoundExpressionPlayMode.UntilDone</field><value name="sound"><shadow type="soundExpression_builtinSoundEffect" id="DsBY8e8=H@zl{Xc5cM#9"><field name="soundExpression">soundExpression.sad</field></shadow></value></block></statement></block></next></block></next></block></statement></block></xml>
